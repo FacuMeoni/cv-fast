@@ -1,0 +1,118 @@
+{
+  "basics": {
+    "name": "Juan Pérez",
+    "label": "Senior Frontend Developer",
+    "image": "https://via.placeholder.com/150",
+    "email": "juan.perez@example.com",
+    "phone": "+54 9 11 1234 5678",
+    "url": "https://juanperez.dev",
+    "summary": "Desarrollador con más de 10 años de experiencia en aplicaciones web modernas. Apasionado por React, Node.js y la experiencia de usuario.",
+    "location": {
+      "address": "Calle Falsa 123",
+      "postalCode": "C1000AAA",
+      "city": "Buenos Aires",
+      "countryCode": "AR",
+      "country": "Argentina"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "juanperez",
+        "url": "https://github.com/juanperez"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "juanperez",
+        "url": "https://linkedin.com/in/juanperez"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "Universidad de Buenos Aires",
+      "url": "https://www.uba.ar",
+      "area": "Ingeniería en Sistemas",
+      "studyType": "Licenciatura",
+      "startDate": "2008-03-01",
+      "endDate": "2013-12-01",
+      "score": "9.0",
+      "courses": ["Desarrollo Web", "Bases de Datos", "Inteligencia Artificial"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "React Professional Certification",
+      "date": "2021-06-01",
+      "issuer": "Platzi",
+      "url": "https://platzi.com/certificates/react"
+    }
+  ],
+  "work": [
+    {
+      "company": "Tech Solutions SA",
+      "position": "Senior Frontend Developer",
+      "url": "https://techsolutions.com",
+      "startDate": "2018-01-01",
+      "endDate": "Present",
+      "summary": "Desarrollo de aplicaciones web con React y Node.js, liderando un equipo de 5 desarrolladores.",
+      "highlights": [
+        "Implementación de arquitectura basada en componentes reutilizables",
+        "Mejora del rendimiento en un 40% de la aplicación principal",
+        "Mentoría de desarrolladores junior"
+      ]
+    },
+    {
+      "company": "Web Studio",
+      "position": "Frontend Developer",
+      "url": "https://webstudio.com",
+      "startDate": "2013-03-01",
+      "endDate": "2017-12-01",
+      "summary": "Desarrollo de aplicaciones web responsivas y mantenimiento de plataformas existentes.",
+      "highlights": [
+        "Migración de jQuery a React",
+        "Optimización de SEO y rendimiento de sitios web"
+      ]
+    }
+  ],
+  "skills": ["React", "Node.js", "JavaScript", "TypeScript", "CSS", "HTML", "Redux", "SQL", "Git", "Testing (Jest/RTL)"],
+  "interests": [
+    {
+      "name": "Technology",
+      "keywords": ["Web Development", "Open Source", "AI", "UX Design"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Portfolio Generator",
+      "isActive": true,
+      "url": "https://portfolio-gen.example.com",
+      "description": "Aplicación web que permite a los usuarios crear portafolios profesionales rápidamente.",
+      "github": "https://github.com/juanperez/portfolio-generator",
+      "skills": ["React", "Redux", "Node.js"]
+    },
+    {
+      "name": "E-Commerce Dashboard",
+      "isActive": true,
+      "url": "https://ecommerce-dashboard.example.com",
+      "description": "Dashboard para administrar inventario y ventas de una tienda online.",
+      "github": "https://github.com/juanperez/ecommerce-dashboard",
+      "skills": ["React", "Chart.js", "CSS"]
+    }
+  ],
+  "references": [
+    {
+      "name": "María González",
+      "reference": "Juan es un profesional muy competente, confiable y siempre dispuesto a compartir su conocimiento con el equipo."
+    }
+  ]
+}
