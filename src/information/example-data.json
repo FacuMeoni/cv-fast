@@ -6,7 +6,7 @@
     "email": "juan.perez@example.com",
     "phone": "+54 9 11 1234 5678",
     "url": "https://juanperez.dev",
-    "summary": "Desarrollador con más de 10 años de experiencia en aplicaciones web modernas. Apasionado por React, Node.js y la experiencia de usuario.",
+    "summary": "+3 years of experience in web development. I'm a Fullstack developer with solid knowledge in JavaScript, HTML, CSS, TailwindCSS, React, Astro, NextJS, Redux, NodeJS, Express, Java, Spring Boot, AWS, SQL, MySQL, Sequelize, Docker, Git, GitHub, C#, and .NET. Proactive person, with a strong desire to learn and grow in the IT industry.",
     "location": {
       "address": "Calle Falsa 123",
       "postalCode": "C1000AAA",
@@ -57,7 +57,7 @@
       "url": "https://platzi.com/certificates/react"
     }
   ],
-  "work": [
+  "works": [
     {
       "company": "Tech Solutions SA",
       "position": "Senior Frontend Developer",

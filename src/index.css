@@ -41,5 +41,5 @@ ul {list-style: none;}
     color: #213547;
     background-color: #ffffff;
   }
-  p { color: #222 }
+  p, span { color: #6b7280 }
 }

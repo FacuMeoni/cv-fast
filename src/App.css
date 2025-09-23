@@ -3,13 +3,90 @@ main {
   justify-content: start;
   align-items: center;
   flex-direction: column;
+  text-align: start;
   height: 100vh;
   max-width: 800px;
   margin: 0 auto;
   background: #fff; 
-  padding: 40px 10px;
+  padding: 60px 10px;
+  gap: 20px;
 }
 
 h1 {
-  color: #000
+  font-size: 38px;
+  font-weight: 800;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: start;
+  width: 100%;
+  gap: 10px;
+}
+
+
+#header {
+  width: 100%;
+
+  span.label {
+    font-size: 18px;
+    color: #6b7280;
+    font-weight: 500;
+  }
+}
+
+
+#basics {
+  p {
+    font-size: 16px;
+    color: #6b7280;
+  }
+}
+
+.contact-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.contact-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 6px 10px;
+  text-decoration: none;
+  color: #111;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+
+.contact-item:hover {
+  background: #f5f5f5;
+}
+
+.username {
+  font-weight: 600;
+}
+
+.network {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.external-link {
+  stroke-width: 1.8;
 }
