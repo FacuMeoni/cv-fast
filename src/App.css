@@ -1,14 +1,18 @@
 main {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  flex-direction: column;
-  text-align: start;
   height: 100vh;
   max-width: 800px;
   margin: 0 auto;
   background: #fff; 
   padding: 60px 10px;
+
+}
+
+.template-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  text-align: start;
   gap: 20px;
 }
 
@@ -26,23 +30,20 @@ h1 {
   gap: 10px;
 }
 
-
 #header {
-  width: 100%;
+  width:100%;
+  gap: 20px;
 
   span.label {
     font-size: 18px;
     color: #6b7280;
-    font-weight: 500;
+    font-weight: 400;
   }
 }
 
-
-#basics {
-  p {
-    font-size: 16px;
-    color: #6b7280;
-  }
+.text {
+  font-size: 16px;
+  color: #6b7280;
 }
 
 .contact-list {
@@ -54,7 +55,6 @@ h1 {
   padding: 0;
   margin: 0;
 }
-
 
 .contact-item {
   display: flex;
@@ -89,4 +89,10 @@ h1 {
 
 .external-link {
   stroke-width: 1.8;
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }

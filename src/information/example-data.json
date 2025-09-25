@@ -14,16 +14,30 @@
       "countryCode": "AR",
       "country": "Argentina"
     },
-    "profiles": [
+    "contact": [
       {
-        "network": "GitHub",
-        "username": "juanperez",
-        "url": "https://github.com/juanperez"
+        "network":"Phone",
+        "data": "+54 2364414166"
+      }, 
+      {
+        "network":"Mail",
+        "data": "meonifacu@gmail.com"
+      },
+      {
+        "network": "Github",
+        "data": "https://github.com/juanperez"
       },
       {
         "network": "LinkedIn",
-        "username": "juanperez",
-        "url": "https://linkedin.com/in/juanperez"
+        "data": "https://www.linkedin.com/in/facundo-meoni-fullstack/"
+      },
+      {
+        "network": "X",
+        "data": "https://x.com/Faacumeoni1"
+      },
+      {
+        "network":"PersonalWeb",
+        "data": "https://facumeoni-webdev.netlify.app/"
       }
     ]
   },
