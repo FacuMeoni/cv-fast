@@ -28,7 +28,7 @@ function App() {
                   >
                   {Icon && <Icon width={20} height={20}/>}
                     <span className="username">{formatProfileUrl(profile.data)}</span>
-                    { showRedirectionButton(profile.data) }
+                    { showRedirectionButton(profile.data) ? <Icons.Redirect width={18} height={18}/> : ''}
                   </a>
                 </li>
                 )

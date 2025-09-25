@@ -11,9 +11,8 @@ export const formatProfileUrl = (url) => {
 export const showRedirectionButton = (url) => {
     try {
         new URL(url)
-
-        return <Icons.Redirect width={18} height={18}/>
-    } catch { return null }
+        return true
+    } catch { return false }
 }
 
 
