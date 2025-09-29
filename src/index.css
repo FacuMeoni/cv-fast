@@ -1,14 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
+  --color-background: #FFFFFF;
+  --color-text-primary: #1F2937;
+  --color-text-secondary: #4B5563;
+  --color-text-muted: #6B7280; 
+  --color-border: #E5E7EB; 
+  --color-surface-hover: #F9FAFB; 
+  --color-skill-tag-bg: #111827;
+  --color-skill-tag-text: #F9FAFB;
+
+  --fs-title: clamp(28px, 3.2vw, 38px);
+  --fs-subtitle: clamp(20px, 2.2vw, 28px);
+  --fs-item-title: clamp(17px, 1.6vw, 18px);
+  --fs-body: clamp(14px, 1vw, 16px);
+  --fs-meta: clamp(14px, 1.2vw, 16px);
+  --fs-badge: clamp(13px, 1vw, 14px);
+
+  --fw-title: 800;
+  --fw-subtitle: 700;
+  --fw-item-title: 600;
+  --fw-badge: 500;
+  --fw-body: 400;
+}
+
+
+html {
   font-family: "Inter", sans-serif;
   line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  background-color: #fff;
-  color: #222;
-
+  letter-spacing: -0.025rem;
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -21,11 +43,11 @@
 body { min-height: 100dvh;}
 input, button, textarea, select {font: inherit;}
 button {cursor: pointer;}
-p {text-wrap: pretty}
-h1, h2, h3, h4, h5, h6 { text-wrap: balance}
+p {text-wrap: pretty; line-height: 1.5;}
+h1, h2, h3, h4, h5, h6 { text-wrap: balance; margin: 0;}
 img, video, svg { height:auto; max-width: 100%;}
 a {text-decoration: none; color: inherit;}
-ul {list-style: none;}
+ul {list-style: none; margin: 0; padding: 0;}
 
 @media(prefers-reduced-motion: reduce) {
   *, *::before, *::after {
@@ -38,8 +60,6 @@ ul {list-style: none;}
 }
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
     background-color: #ffffff;
   }
-  p, span { color: #6b7280 }
 }

@@ -1,5 +1,3 @@
-import { Icons } from "../components/icons";
-
 export const formatProfileUrl = (url) => {
     if(!url.startsWith("http"))return url;
     

@@ -24,12 +24,12 @@
         "data": "meonifacu@gmail.com"
       },
       {
-        "network": "Github",
-        "data": "https://github.com/juanperez"
-      },
-      {
         "network": "LinkedIn",
         "data": "https://www.linkedin.com/in/facundo-meoni-fullstack/"
+      },
+      {
+        "network": "Github",
+        "data": "https://github.com/juanperez"
       },
       {
         "network": "X",
@@ -76,9 +76,9 @@
       "company": "Tech Solutions SA",
       "position": "Senior Frontend Developer",
       "url": "https://techsolutions.com",
-      "startDate": "2018-01-01",
+      "startDate": "2018/01/01",
       "endDate": "Present",
-      "summary": "Desarrollo de aplicaciones web con React y Node.js, liderando un equipo de 5 desarrolladores.",
+      "summary": "Liderazgo técnico de un equipo de 5 desarrolladores en el diseño y construcción de aplicaciones web a escala usando React y Node.js. Definí estándares de código, realicé revisiones de PRs y mentoría, y trabajé con diseño y producto para iterar con métricas. Enfocado en mejorar tiempos de carga, accesibilidad y mantenibilidad mediante arquitectura de componentes y separación de responsabilidades.",
       "highlights": [
         "Implementación de arquitectura basada en componentes reutilizables",
         "Mejora del rendimiento en un 40% de la aplicación principal",
@@ -89,9 +89,9 @@
       "company": "Web Studio",
       "position": "Frontend Developer",
       "url": "https://webstudio.com",
-      "startDate": "2013-03-01",
-      "endDate": "2017-12-01",
-      "summary": "Desarrollo de aplicaciones web responsivas y mantenimiento de plataformas existentes.",
+      "startDate": "2013/03/01",
+      "endDate": "2017/12/01",
+      "summary": "Desarrollo de interfaces responsivas y accesibles en múltiples proyectos, integrando backends REST y optimizando UX. Participé en la migración progresiva de jQuery a React, adopción de patrones modernos (hooks, lifting state) y mejores prácticas de rendimiento y SEO, cuidando la semántica HTML/CSS y la escalabilidad del código.",
       "highlights": [
         "Migración de jQuery a React",
         "Optimización de SEO y rendimiento de sitios web"
@@ -110,7 +110,7 @@
       "name": "Portfolio Generator",
       "isActive": true,
       "url": "https://portfolio-gen.example.com",
-      "description": "Aplicación web que permite a los usuarios crear portafolios profesionales rápidamente.",
+      "description": "Aplicación para crear portafolios profesionales en minutos con plantillas personalizables, vista previa en tiempo real y exportación lista para deploy. Incluye editor basado en JSON, soporte SEO (metadatos/Open Graph), temas claro/oscuro y persistencia local del borrador. Optimizada para rendimiento y accesibilidad.",
       "github": "https://github.com/juanperez/portfolio-generator",
       "skills": ["React", "Redux", "Node.js"]
     },
@@ -118,7 +118,7 @@
       "name": "E-Commerce Dashboard",
       "isActive": true,
       "url": "https://ecommerce-dashboard.example.com",
-      "description": "Dashboard para administrar inventario y ventas de una tienda online.",
+      "description": "Panel administrativo para monitorear ventas en tiempo real, gestionar inventario y analizar KPIs. Incluye gráficos interactivos, filtros avanzados, control de roles, exportación de reportes y notificaciones. Enfocado en UX y performance con carga diferida y memoización de vistas pesadas.",
       "github": "https://github.com/juanperez/ecommerce-dashboard",
       "skills": ["React", "Chart.js", "CSS"]
     }
